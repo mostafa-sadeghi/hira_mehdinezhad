@@ -24,6 +24,15 @@ t
 for
 """
 
+all_students = ["artin", "hira","rastin", "farham","armin", "sara"]
+counter = 0
+for name in all_students:
+    if "t" in name:
+        print(name)
+        counter += 1
+
+print(f"count of names which have t: {counter}")
+
 
 # import random
 
